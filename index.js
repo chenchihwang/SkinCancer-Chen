@@ -15,15 +15,13 @@
  * =============================================================================
  */
 const CLASSES_NAMES = {
-  0: 'apple',
-  1: 'avocado',
-  2: 'banana',
-  3: 'carrot',
-  4: 'lettuce',
-  5: 'onion',
-  6: 'pepper',
-  7: 'potato',
-  8: 'tomato',
+  0: 'akiec',
+  1: 'bcc',
+  2: 'bkl',
+  3: 'df',
+  4: 'mel',
+  5: 'nv',
+  6: 'vasc',
  }
 
 const MOBILENET_MODEL_PATH =
