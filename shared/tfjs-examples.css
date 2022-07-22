@@ -8577,3 +8577,104 @@ code {
   border: 1px solid #dedede;
   border-radius: 4px;
   font-size: 110%; }
+
+
+
+
+
+
+/* STYLE NAV BAR */
+
+
+
+
+
+a:link, a:visited {
+  background-color: #FFF7F0;
+  color: #601700;
+  padding: 14px 25px;
+  display: inline-block;
+  text-align: center; 
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: #601700;
+  color: #FFF7F0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#nav {
+  text-align: center;
+  font-size: 25px;
+}
+
+h1{font-family: Impact, fantasy;
+  color:#B92A32;
+  font-size: 63px;
+}
+
+h3{font-family:Times, "Times New Roman", serif;
+  color:#764A38}
+
+  p.section-resources{font-family: Palatino, "URW Palladio L", serif;
+    color:#000; 
+    font-size: 31px;
+    font-style: italic;
+    font-weight: 400;
+  
+  }
+  
+  p.section-resources1{font-family: Palatino, "URW Palladio L", serif;
+    color:#f0f0f0; 
+    font-size: 31px;
+    background-color: #b00020;
+    font-style: italic;
+    font-weight: bold;
+  
+  }
+  
+  
+  p.section-resources2{font-family: Palatino, "URW Palladio L", serif;
+    color:#000; 
+    font-size: 31px;
+    font-style: italic;
+    font-weight: 400;
+  
+  }
+  
+  p.section-resources3{font-family: Palatino, "URW Palladio L", serif;
+    color:#bcb8b1; 
+    font-size: 2px;
+    background-color: #bcb8b1;
+  }
+
+  p.section-help{font-family: Impact, fantasy;
+    color:#f0f0f0; 
+    font-size: 40px;
+    background-color: #b00020;
+    font-weight: bold;
+  }
+
+#body{
+  background-color: #6D2E48;
+}
+
+p.section-head{font-family: Impact, fantasy;
+  color:#E22646;
+  font-size: 30px}
+
+p{font-family: serif, garamond;
+  font-size: 20px;}
+
+li {
+  display: inline;
+}
+
+p.section-model{font-family: font-family: Impact, fantasy;
+  color:#f0f0f0; 
+  font-size: 35px;
+  background-color: #B92A32;
+  font-weight: bold;
+}
