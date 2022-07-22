@@ -17,8 +17,10 @@ limitations under the License.
 
 <!doctype html>
 
+<lang="en">
+
 <head>
-  <title>AI4ALL Project Classification+X</title>
+  <title>Skin Cancer AI Model</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="shared/tfjs-examples.css" />
@@ -44,46 +46,58 @@ limitations under the License.
   }
 
   #file-container {
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
   }
 </style>
+
+<div>
+  <nav id ='nav'>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Model.html">Model</a></li>
+          <li><a href="Resources.html">Resources</a></li>
+          <li><a href="Help.html">Get Involved</a></li>
+      </ul>
+  </nav>
+</div>
 
 <body>
   <div class="tfjs-example-container">
     <section class='title-area'>
       <center>
-      <h1> Skin Cancer AI Moel</h1>
+      <h1> AI Model for Skin Cancer Detection</h1>
+      <h3> Deep convolutional neural networks to evaluate skin images to detect seven types of skin cancer</h3>
       </center>
     </section>
 
     
     <section>
-      <img src="dataset.jpg" style="width: 50%;">
-      <p class='section-head'>Description</p>
+      <center>
+      <img src="cancer1.jpeg" style="width: 70%;">
+    </center>
+  </section>
+
+  <section>
+    <center>
+      <p class='section-head'>Our Vision</p>
       <p>
-        i hopethis works  
+        Our aim is to provide an accurate skin-cancer detecting model that can be utilized in places where traditional dermatologist appointments are not equally accesible to everyone.
       </p>
-    </section>
+    </center>
+  </section>
+    
 
     <section>
-      <p class='section-head'>Status</p>
-      <div id="status"></div>
+      <center>
+      <p class='section-head'>About Us</p>
+      <img src="selfie.jpg" style="width: 30%;">
+      <p>
+        Chen-Chi Hwang: A rising senior very passionate about CS and AI, planning to study NLP and HCI in the future!
+        <br>
+        Manuela Berrio: A rising senior, proud Colombian, and women in STEM aiming to leave a print in this world.
+        <br>
+        Jayden Bautista: A rising high school senior in Texas, and planning to study both applied mathematics and artificial intelligence in college.
+      </p>
+    </center>
     </section>
-
-    <section>
-      <p class='section-head'>Model Output</p>
-
-      <div id="file-container" style="display: none">
-        Upload an image: <input type="file" id="files" name="files[]" multiple />
-      </div>
-
-      <div id="predictions"></div>
-
-      <img style="display: none" id="cat" src="ai4all.jpg" width=224 height=224 />
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.2"></script>
-    <!-- <script src="imagenet_classes.js"></script> -->
-    <script src="index.js"></script>
-  </div>
 </body>
